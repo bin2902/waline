@@ -12,7 +12,7 @@ module.exports = class extends think.Controller {
       <title>Waline Example</title>
     </head>
     <body>
-      <div id="waline" style="max-width: 800px;margin: 0 auto;"></div> <script src="https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js"></script>
+      <div id="waline" style="max-width: 800px;margin: 0 auto;"></div> <script src="https://cdnjs.cloudflare.com/ajax/libs/waline/2.5.0/waline.min.js"></script>
       <script>
         console.log(
           '%c @waline/server %c v${version} ',
